@@ -1,0 +1,80 @@
+.footer{
+  padding-top: 60px;
+
+}
+li {
+  color: rgb(113, 117, 117);
+  padding-left: 5px;
+  list-style-type: none;
+  font-weight: lighter;
+  font-size: 13px;
+  font-family: Poppins600;
+}
+footer .footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin:0 0px;
+  padding-left: 2px;
+} 
+.discover-app-image{
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+  border-radius: 3rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-image-find-us{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-right: 120px;
+}
+.footer-image-find-us{
+  padding-right: 30px;
+  width: 60px;
+  border-radius: 300px;
+}
+.footer-image-find-us img{
+  border-radius: 300px;
+} 
+.footer-container p{
+  color: #81849C;
+}
+.footer-container h1{
+  font-size: 40px;
+}  
+.social-media-icon {
+  width: 40px; 
+  height: 40px; 
+  background-color: #ffffff; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.twitter-icon{
+  width: 60%;
+}
+#instagram-icon,#facebook-icon {
+  width: 60%; 
+} 
+.social-media-links{
+  gap: 15px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.social-media{
+  margin-top: 10px;
+} 
+footer .copyright{
+  margin:32px 0 48px 65px;
+  text-align: center;
+  color: #81849C;
+  font-weight: 600;
+  font-family: Poppins600;
+}
+footer p ,img{
+  cursor: pointer;
+}

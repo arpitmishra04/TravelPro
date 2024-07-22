@@ -1,0 +1,755 @@
+
+
+@font-face {
+  font-family: Poppins100;
+  src: url(/fonts/Poppins/Poppins-Thin.ttf);
+}
+
+@font-face {
+  font-family: Poppins200;
+  src: url(/fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Poppins300;
+  src: url(/fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: Poppins400;
+  src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins500;
+  src: url(/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins600;
+  src: url(/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins700;
+  src: url(/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins800;
+  src: url(/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins900;
+  src: url(/fonts/Poppins/Poppins-Black.ttf);
+}
+
+
+
+body{
+  
+  font-family: Poppins , sans-serif;
+}
+
+.menu-icon {
+  display: none;
+}
+#home-short-description{
+  color:orangered;
+  font-family: Poppins600;
+  
+}
+h1{
+  font-family: Poppins700;
+  font-size: 40px;
+  color: #181E4B;
+  margin-top: auto;
+  padding-top: 5px;
+}
+p{
+  color: #81849C;
+  margin-top: 0;
+  font-weight: bold;
+  font-family: Poppins600;
+}
+#home-heading{
+  line-height: 1;
+  font-weight: lighter;
+  font-size: 68px;
+}
+.btn-find-out-more{
+  background-color: #F1A501;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: 0;
+  box-shadow: 0px 15px 20px  rgba(241, 165, 1, 0.15);
+  cursor: pointer;
+  font-family: Poppins600;
+  
+}
+.home{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+.home-text-content{
+  margin: 70px 0 0 30px;  
+}
+.home-right-side-image{
+  height: 615.698px;
+  margin-left: 0px;
+}
+.category{
+  font-family: Poppins600;
+  margin-top: 70px;
+  text-align: center;
+  background-image: url(/assets/plus.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto;
+  padding-bottom: 32px;
+}
+.card-container-services {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1085px;
+  width: 100%;
+  margin: auto;
+
+}
+.card-services-offered {
+  text-align: center;
+  position: relative;
+  width: 220px;
+  height: 260px;
+  background-color: #ffffff;
+  border-radius: 35px;
+  overflow: hidden;
+  margin: 20px;
+}
+.card-services-offered:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 20px  rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease-in-out;
+}
+.card-services-offered img { 
+  height: 80px;
+  width:80px;
+  object-fit: contain;
+  margin-top: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-services-offered-content {
+  padding: 0px;
+}
+
+.card-services-offered h3 {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #181E4B;
+  font-family: Poppins300;
+}
+
+.card-services-offered p {
+  font-size: 14px;
+  color: #181e4b95;
+  font-weight: lighter;
+  font-family: Poppins600;
+}
+
+.selling-box{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.card-container-selling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0   120px;
+}
+.card-selling {
+  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+.card-selling-content img{
+  height: 280px;
+  width: 320px;
+}
+.card-selling-place-price{
+  padding: 10px 0 0 10px;
+  color: grey;
+  font-family: Poppins400;
+}
+.card-selling-duration-icon{
+  color: #666;
+}
+.card-selling-place-price .price{
+  padding-left: 150px;
+}
+.card-selling-place-price .place_name{
+  padding-left: 15px;
+}
+.card-selling-duration-icon{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5px 0 0 8px;
+}
+.card-selling-duration-icon .duration{
+  padding : 8px;
+  font-size: 15px;
+  color: #666;
+  font-family: Poppins400;
+}
+.card-selling-duration-icon img{
+  height: 14px;
+  width: 14px;
+  margin-top: 5px;
+}
+.steps-left-description{
+  margin: 130px 0 0 50px;
+}
+#steps-short-header{
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Poppins400;
+
+}
+#steps-header{
+  font-size: 45px;
+  padding-top: 15px;
+  font-family: Poppins700;
+}
+.steps-img img{
+  padding-top: 4px;
+  width: 40px;
+}
+.steps-text{
+  padding-left:10px ;
+  display: flex;
+  flex-direction: column;
+  color: #666;
+}
+.steps-detail{
+  font-weight: 600;
+  font-family: Poppins300;
+  font-size: 13px;
+}
+.steps-heading{
+  font-family: Poppins500;
+  font-weight: bold;
+  
+}
+.steps-img-text{
+  display: flex;
+  margin-top: 40px;
+}
+.steps-right-card{
+  margin: 200px 110px 0 0 ;
+
+}
+.steps-block{
+  display: flex;
+  justify-content: space-around;
+}
+.steps-right-card-img{
+  width: 368px;
+  height:401px;
+  border-radius: 10px;
+  justify-content: center;
+  display: grid;
+  
+
+}
+.steps-right-greece{
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  width: 320px;
+  position: absolute;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 45px -60px 120px rgba(121, 192, 238, 0.3), 0 15px 20px rgba(0, 0, 0, 0.15);
+}
+.steps-right-greece #greece{
+  width:320px;
+  height:160px;
+}
+.steps-place-duration{
+  padding-top: 20px;
+  
+}
+.steps-place-duration #steps-right-place-name{
+  font-size: 22px;
+  font-family: Poppins500;
+}
+.steps-duration {
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: grey;
+  font-family: Poppins400;
+}
+.steps-place-duration #steps-right-duration{
+  font-size: 20px;
+  font-family: Poppins400;
+}
+.place-description img{
+  padding-top: 10px 0 0 5px;
+}
+.people-going{
+  display: flex;
+  align-items: flex-start;
+  padding-top: 15px;
+}
+.people-going p{
+  padding-left: 5px;
+  font-family: Poppins300;
+}
+.people-going #save-icon{
+  margin-left: auto;
+}
+
+
+
+.building-img{
+  width:8%;
+}
+
+
+.ongoing-card{
+  height: 95px;
+  padding: 10px 10px 5px 10px;
+  position: absolute;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 12px;
+  margin: -195px 0 0 190px;
+  width: 200px;
+}
+.ongoing-card-image img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+.ongoing-card-content{
+  margin-left: 10px;
+}
+.ongoing-card-content p,h4{
+  padding-top: 5px;
+  font-size: 18px;
+  margin: 0;
+}
+.ongoing-card-content p{
+  font-size: 12px;
+} 
+.ongoing-card-content p{
+  color: #81849C;
+  font-weight: 700;
+} 
+.ongoing-card-content p span{
+  color: #8A79DF;
+}
+.ongoing-card-content .progress-status{
+  color: black;
+  padding-top: 10px;
+}
+.progress-bar-container{
+  width: 150px;
+}
+.progress-bar-container progress {
+  appearance: none; /* Remove default styling */
+  width: 100%;
+  height: 05px; /* Set a height for the progress bar */
+}
+.progress-bar-container progress::-webkit-progress-bar {
+  background-color: #f0f0f0; /* Background color of the progress bar container */
+  border-radius: 10px; /* Rounded corners for the progress bar container */
+}
+.progress-bar-container progress::-webkit-progress-value {
+  background-color: #8A79DF; /* Color of the progress bar */
+  border-radius: 10px; /* Rounded corners for the progress bar */
+}
+.align-ongoing-card{
+  display:flex;
+  align-items: flex-start;
+
+}
+.subscribe-box {
+  position: relative;
+  height: 300px;
+  margin-bottom: 80px;
+}
+.subscribe-box-inner {
+  width: 80%;
+  margin: auto;
+}
+.subscribe-arrow {
+  position: absolute;
+  right: -3%;
+  top: -7%;
+  z-index: 3;
+}
+.subscribe-box-decoration {
+  background-color: #F9F7FE;
+  width: auto;
+  height: 300px;
+  margin: 70px auto auto auto;
+  border-radius: 100px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.left-decor-tornado-circle{
+  position: absolute;
+  height: 70%;
+  bottom: 0;
+  left: 0;
+  opacity: 0.19;
+  z-index: 1;
+}
+.right-decor-tornado-circle{
+  height: 60%;
+  transform: rotate(-0.25turn);
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  opacity: 0.15;
+  z-index: 1;
+} 
+.subscribe-email {
+  margin: 5px;
+  background-color: #ffffff;
+  height: 30px;
+  width: 340px;
+  border: none;
+  outline: none;
+  font-family: Poppins400;
+}
+.email-section{
+  z-index: 3;
+  display: flex;
+  padding-top: 50px;
+}
+.email-form-box{
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+}
+.email-form-box img{
+  height: 45px;
+}
+.email-form-box:focus-within {
+  border: 1px solid #000000;
+}
+.subscribe-button {
+  color: #ffffff;
+  padding: 0 30px;
+  margin-left: 15px;
+  background-color: #FF8B6B;
+  border-radius: 10px;
+  border-width: 0;
+  font-family: Poppins400;
+}
+.subscribe-button:hover {
+  background-color: #ff5f33;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.subscribe-text-description {
+  margin-top: 40px;
+  text-align: center;
+  color: #5E6282;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px; 
+  z-index: 3;
+  font-family: Poppins600;
+}
+.subscribe-box-plus-img {
+  position: absolute;
+  bottom: -50px;
+  right: -27px;
+  transform: rotateY(45deg);
+  height: 141px;
+  z-index: -1;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .header {
+      margin: 10px 35px;
+  }
+  .lang-select {
+      padding: 10px 0 10px 10px;
+  }
+  a {
+      padding-right: 10px;
+      font-size: 13px;
+  }
+  .header-options {
+      padding-right: 0px;
+  }
+  .header-icon {
+      margin: 0 30px;
+  }
+  .home-text-content {
+      margin: 35px 0 0 35px;
+  }
+  .btn-signup {
+      padding: 5px;
+  }
+  .home {
+      margin: 30px 30px 0 30px;
+  }
+  .home-right-side-image img {
+      height: 400px;
+      max-width: 100%;
+  }
+  h1 {
+      font-size: 30px;
+  }
+ 
+  #home-short-description {
+      font-size: 12px;
+  }
+  p {
+      font-size: 13.5px;
+  }
+  .home-right-side-image {
+      height: auto;
+  }
+
+  .card-container-services {
+      width: auto;
+      margin-left: 0px;
+  }
+  .card-selling {
+      margin: auto;
+  }
+  .card-selling-content .place-image {
+      height: 220px;
+      width: 250px;
+  }
+  .card-selling-place-price {
+      display: flex;
+      padding-left: 10px;
+  }
+  .card-selling-place-price .price {
+      padding-left: 100px;
+  }
+  .steps-left-description {
+      margin-left: 40px;
+  }
+  #steps-header {
+      font-size: 35px;
+  }
+  .steps-right-card {
+      margin-right: 40px;
+  }
+  .steps-right-greece {
+      justify-content: center;
+      padding: 10px;
+      border-radius: 25px;
+      position: absolute;
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+      box-shadow: 45px -60px 120px rgba(121, 192, 238, 0.3), 0 15px 20px rgba(0, 0, 0, 0.15);
+  }
+  .steps-right-greece #greece {
+      width: 317px;
+      height: 140px;
+  }
+  .ongoing-card {
+      height: 100px;
+      padding: 10px 10px 5px 10px;
+      position: absolute;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      border-radius: 12px;
+      margin: -230px 185px;
+      width: 191px;
+  }
+  .progress-bar-container {
+      width: 130px;
+  }
+  footer .footer-container {
+      margin: 0 0px;
+      justify-content: space-evenly;
+  }
+}
+@media (min-width: 993px) and (max-width: 1240px) {
+  .header {
+      margin: 10px 35px;
+  }
+  .lang-select {
+      padding: 10px 0 10px 10px;
+  }
+  a {
+      padding-right: 10px;
+      font-size: 13px;
+  }
+  .header-options {
+      padding-right: 0px;
+  }
+  .header-icon {
+      margin: 0 30px;
+  }
+  .home-text-content {
+      margin: 35px 0 0 35px;
+  }
+  .btn-signup {
+      padding: 5px;
+  }
+  .home {
+      margin: 30px 30px 0 30px;
+  }
+  .home-right-side-image img {
+      height: 430px;
+      max-width: 100%;
+  }
+  h1 {
+      font-size: 35px;
+  }
+ 
+  #home-short-description {
+      font-size: 14px;
+  }
+  p {
+      font-size: 14px;
+  }
+  .home-right-side-image {
+      height: auto;
+  }
+
+  .card-container-services {
+      width: auto;
+  }
+  .card-selling {
+      margin: auto;
+  }
+  .card-selling-content .place-image {
+      height: 220px;
+      width: 250px;
+  }
+  .card-selling-place-price {
+      display: flex;
+      padding-left: 10px;
+  }
+  .card-selling-place-price .price {
+      padding-left: 100px;
+  }
+  .steps-left-description {
+      margin-left: 40px;
+  }
+  #steps-header {
+      font-size: 35px;
+  }
+  .steps-right-card {
+      margin-right: 40px;
+  }
+  .steps-right-greece {
+      justify-content: center;
+      padding: 10px;
+      border-radius: 25px;
+      position: absolute;
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+      box-shadow: 45px -60px 120px rgba(121, 192, 238, 0.3), 0 15px 20px rgba(0, 0, 0, 0.15);
+  }
+  .steps-right-greece #greece {
+      width: 317px;
+      height: 140px;
+  }
+  .ongoing-card {
+      height: 100px;
+      padding: 10px 10px 5px 10px;
+      position: absolute;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      border-radius: 12px;
+      margin: -230px 0 0 185px;
+      width: 191px;
+  }
+  .progress-bar-container {
+      width: 130px;
+  }
+  footer .footer-container {
+      margin: 0 0px;
+      justify-content: space-evenly;
+  }
+}
+@media   (max-width: 767px){
+  .home{
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+  .home-right-side-image img{
+      height:450px;
+  }
+  .home-text-content{
+      margin-left: 0px;
+  }
+  .home-right-side-image{
+      height: 450px;
+  }
+  h1{
+      font-size: 25px;
+  }
+  .category{
+      background-size: 20%;
+  }
+  .card-container-services{
+      flex-wrap: wrap;
+  }
+  .card-container-selling{
+      flex-wrap: wrap;
+  }
+  .card-selling-content{
+      padding-top: 20px;
+  }
+  .steps-block{
+      flex-wrap: wrap;
+  }
+  .steps-right-card{
+      margin: 20px 0 0 0;
+  }
+  .subscribe-email {
+      height: 20px;
+      width: 200px;
+  }
+  .email-section{
+      padding-top: 20px;
+  }
+  .subscribe-button{
+      padding: 0 15px;
+  }
+  .footer-container{
+      flex-wrap: wrap;
+  }
+  .discover-app-text{
+      padding-left: 30px;
+  }
+  .social-media-links{
+      padding-left: 20px;
+  }
+  .copyright p{
+      margin:35px 0 35px -25px;
+  }
+}
